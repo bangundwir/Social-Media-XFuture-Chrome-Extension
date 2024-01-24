@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Social Media XFuture</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <style>
+            body {
+                padding: 20px;
+            }
+            .btn-social {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .dark-mode {
+                background-color: #343a40;
+                color: #ffffff;
+            }
+            .author-credit {
+                font-size: 0.8em;
+                text-align: center;
+                margin-top: 20px;
+                color: #6c757d;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="text-center">
+            <h3 class="mb-4">Social Media</h3>
+            <button id="openInstagram" class="btn btn-primary btn-social">
+                <i class="fab fa-instagram"></i> Instagram
+            </button>
+            <button id="openTikTok" class="btn btn-secondary btn-social">
+                <i class="fab fa-tiktok"></i> TikTok
+            </button>
+            <button id="openTwitter" class="btn btn-info btn-social">
+                <i class="fab fa-twitter"></i> Twitter
+            </button>
+            <hr />
+            <button id="toggleDarkMode" class="btn btn-dark">
+                Toggle Dark Mode
+            </button>
+            <div class="author-credit">Author by Bangundwir</div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
